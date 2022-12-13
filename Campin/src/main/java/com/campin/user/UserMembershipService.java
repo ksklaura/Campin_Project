@@ -388,8 +388,8 @@ public class UserMembershipService implements UserMembershipInterface {
 		String alert = "";
 		String charSet = "UTF-8";
 		String hostSMTP = "smtp.naver.com"; 		// gmail 사용시 smtp.gmail.com
-		String hostSMTPid = "ksklaura@naver.com";   // 서버 이메일 주소(보내는 사람)
-		String hostSMTPpwd = "XEL4UTYUR3HN"; 		// 서버 이메일 비번
+		String hostSMTPid = "******@naver.com";         // 서버 이메일 주소(보내는 사람)  // 보안을 위해 *처리함.
+		String hostSMTPpwd = "********"; 		// 서버 이메일 비번               // 보안을 위해 *처리함.
 		
 		// 보내는 사람 이메일주소, 제목, 내용
 		String fromEmail = "ksklaura@naver.com"; 	// 보내는 사람 이메일 주소(받는 사람 이메일에 표시됨)
