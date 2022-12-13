@@ -392,8 +392,8 @@ public class UserMembershipService implements UserMembershipInterface {
 		String hostSMTPpwd = "********"; 		// 서버 이메일 비번               // 보안을 위해 *처리함.
 		
 		// 보내는 사람 이메일주소, 제목, 내용
-		String fromEmail = "ksklaura@naver.com"; 	// 보내는 사람 이메일 주소(받는 사람 이메일에 표시됨)
-		String fromName = "CAMPIN";  				// 프로젝트 이름 또는 보내는 사람 이름
+		String fromEmail = ""******@naver.com"; 	// 보내는 사람 이메일 주소(받는 사람 이메일에 표시됨)  // 보안을 위해 *처리함.
+		String fromName = "CAMPIN";  		        // 프로젝트 이름 또는 보내는 사람 이름
 		String subject = "", msg = "";
 		
 		subject = "CAMPIN에서 회원님의 임시 비밀번호를 보내드립니다.";
